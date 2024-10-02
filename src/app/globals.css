@@ -43,7 +43,9 @@ body {
     /* my styles */
     --myaccent: 264 100% 45%;
     --mybg: 0 0% 100%;
+    --mybglight: 264 100% 98%;
     --mytext: 0 0% 0%;
+    --mytextlight: 0 0% 17%;
   }
   .dark {
     --background: 240 10% 3.9%;

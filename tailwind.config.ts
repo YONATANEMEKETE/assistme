@@ -8,11 +8,18 @@ const config: Config = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    fontFamily: {
+      heading: 'var(--heading)',
+      body: 'var(--body)',
+    },
+
     extend: {
       colors: {
         myaccent: 'hsl(var(--myaccent))',
         mybg: 'hsl(var(--mybg))',
         mytext: 'hsl(var(--mytext))',
+        mybglight: 'hsl(var(--mybglight))',
+        mytextlight: 'hsl(var(--mytextlight))',
         // my styles
         background: 'hsl(var(--background))',
         foreground: 'hsl(var(--foreground))',
